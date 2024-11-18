@@ -2,6 +2,7 @@ const urls = ["https://i0.wp.com/birdphotographylife.com/wp-content/uploads/2018
 function fuckYeah() {
     getData();
     document.getElementById('attribution').hidden = false;
+    document.getElementById('startButton').innerText = 'Click again!';
 }
 
 async function getData() {
